@@ -15,6 +15,7 @@ Google Sheets spreadsheets.
 
 To install all the prerequisites to get this notebook running, you'll probably need all of the following:
 
+```
 $ sudo pip install jupyter
 $ sudo pip install numpy
 $ sudo pip install pandas
@@ -25,7 +26,7 @@ $ sudo pip install rtree
 $ sudo pip install tqdm
 $ sudo pip install pygsheets
 $ jupyter nbextension enable --py widgetsnbextension
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager```
 
 ## Data preparation
 
@@ -33,8 +34,10 @@ First, download the data from
 https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/7ahn-ypff. It should produce a
 file 311_Service_Requests_from_2010_to_Present.csv; put that in the illegal_parking/data directory. Then:
 
+```
 $ cd illegal_parking/data
 $ grep "Illegal Parking" 311_Service_Requests_from_2010_to_Present.csv >> illegal_parking.csv
+```
 
 ## Google Sheets preparation
 
@@ -49,7 +52,9 @@ client_secret.json for pygsheets.
 
 Start the notebook:
 
+```
 $ jupyter notebook
+```
 
 1. Open illegal_parking/311_illegal_parking.ipynb.
 2. Change the file paths for `client_secret.json`, `precinct_shapes`, and `council_district_shapes` to point to the
