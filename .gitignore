@@ -1,0 +1,6 @@
+client_secret.json
+illegal_parking/data/311_Service_Requests_from_2010_to_Present.csv
+illegal_parking/data/enhanced_data.pkl
+illegal_parking/data/illegal_parking.csv
+illegal_parking/.ipynb_checkpoints/*
+heating/heating.csv
