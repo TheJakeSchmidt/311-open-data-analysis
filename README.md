@@ -26,7 +26,8 @@ $ sudo pip install rtree
 $ sudo pip install tqdm
 $ sudo pip install pygsheets
 $ jupyter nbextension enable --py widgetsnbextension
-$ jupyter labextension install @jupyter-widgets/jupyterlab-manager```
+$ jupyter labextension install @jupyter-widgets/jupyterlab-manager
+```
 
 ## Data preparation
 
